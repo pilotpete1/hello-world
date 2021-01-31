@@ -1,7 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 h1{
     color: red;
+    padding: 10px;
 }
 
 p{
     color: blue;
+}
+nav{
+    background-color: rgba(16, 191, 245, 0.5);
+}
+nav li{
+    color: pink;
+}
+
+body{
+    background-color: aqua;
+    background-image: url(img/highdanjCoupe.png);
+    background-position: center; /*Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /*Resize the background image to cover the entire container*/
+    height: 1000px;
 }
